@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Vanilla Challenge</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <header>
+      <h2 id="clock" class="clock" style="color: black" >00:00:00</h2>
+      <form class="hidden" id="loginForm">
+        <input
+          required
+          maxlength="30"
+          type="text"
+          placeholder="니 이름은 누구?"
+        />
+        <input type="submit" value="Log In" />
+      </form>
+      <h1 class="hidden" id="greeting"></h1>
+    </header>
+    <main>
+      <form id="todo-form">
+        <input type="text" style="width:70%" placeholder="할 일 적고 엔터누르기" required />
+      </form>
+      <ul id="todo-list"></ul>
+      
+      <div id="quote" class="quote">
+        <span></span>
+        <span></span>
+      </div>
+    </main>
+    <footer>
+      <div id ="weather">
+        <span></span>
+        <span></span>
+      </div>
+    </footer>
+    
+    <!-- <form id="inputForm" class="hidden">
+        <h1>Random Number Game</h1>
+        <h2>Generate a number between 0 and
+            <input id="input-number" pattern="[0-9]+" type="number" min="1" step="1" required >
+        </h2>
+        <h3>Guess the number:  
+            <input id="guess-number" pattern="[0-9]+" type="number" min="1" step="1" required >
+            <button>Play!</button>
+            </input>
+        </h3>
+    </form> -->
+    <!-- <div id="resDiv">
+        <h3 id="result"></h3>
+        <h2 id="bfwin"></h2>
+    </div> -->
+    <!-- <div>
+      <h1>Time Until Christmas Eve</h1>
+      <h2 id="clock">00:00</h2>
+    </div> -->
+
+
+
+
+    <script src="js/greeting.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/background.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/quotes.js"></script>
+    <script src="js/weather.js"></script>
+  </body>
+</html>
+

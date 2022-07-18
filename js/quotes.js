@@ -372,11 +372,6 @@ const quotes = [
       author: " ",
     },
     // {
-    //   quote:
-    //     "The world is a book and those who do not travel read only one page.",
-    //   author: "Saint Augustine",
-    // },
-    // {
     //   quote: "Life is either a daring adventure or nothing at all.",
     //   author: "Helen Keller",
     // },

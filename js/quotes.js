@@ -407,5 +407,5 @@ const quotes = [
   
   quote.innerText = todaysQuote.quote;
   // author.innerText = todaysQuote.author;
-  quote.style.color ="yellow";
+  quote.style.color ="black";
   

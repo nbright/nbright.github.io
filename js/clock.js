@@ -1,5 +1,5 @@
 const clock = document.querySelector("#clock");
-
+const today = document.querySelector("#today");
 function getClock(){
 
     // const christmasDate = new Date('2022-12-25T00:00:00')
@@ -30,6 +30,9 @@ function getClock(){
     const g = Math.floor(Math.random() * 256);
     const b = Math.floor(Math.random() * 256);
     clock.style.color = `rgb(${r}, ${g}, ${b})`;
+
+    const currentMoment = moment().subtract(0, 'days');
+    today.innerText=currentMoment.format('YYYY년MM월DD일');
 }
 getClock();
 setInterval(getClock, 1000);

@@ -9,7 +9,10 @@
 
   <body>
     <header>
-      <h2 id="clock" class="clock" style="color: black" >00:00:00</h2>
+      <div>
+        <h2 id="clock" class="clock" style="color: black" >00:00:00</h2>
+        <h3 id="today" style="color: black" ></h3>
+      </div>
       <form class="hidden" id="loginForm">
         <input
           required
@@ -31,6 +34,14 @@
         <span></span>
         <span></span>
       </div>
+      <button id="btnBefore">이전에 나는 어땟니?</button>
+      <div id="before-todos">
+        <ul id="before-todo-list"></ul>
+
+      </div>
+      
+      
+
     </main>
     <footer>
       <div id ="weather">
@@ -65,12 +76,13 @@
 
 
 
-
+    <script src="https://cdn.jsdelivr.net/npm/moment@2/moment.min.js"></script>
     <script src="js/greeting.js"></script>
     <script src="js/clock.js"></script>
     <script src="js/background.js"></script>
     <script src="js/todo.js"></script>
     <script src="js/quotes.js"></script>
+    
     <!-- <script src="js/weather.js"></script> -->
   </body>
 </html>

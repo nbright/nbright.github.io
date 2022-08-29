@@ -2,10 +2,13 @@ body {
     background-image: none;
     color:indigo;
     text-align: center;
+    background-repeat : no-repeat;
+    background-position: center;
 }
 ul{
     list-style-type: decimal;
-    text-align: left;
+    /*text-align: left;*/
+    text-align: center;
 }
 .hidden{
     display: none;
@@ -35,4 +38,42 @@ main {
 }
 footer {
     height: 200px;
+}
+
+.main-div-out {
+    position: relative;
+    margin: 0 auto;
+    width: 420px;
+}
+
+.main-div-in {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.main-ul-out {
+    position: relative;
+    margin: 0 auto;
+    width: 445px;
+}
+
+.main-ul-in {
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+#todo-list span{
+    float: left;
+}
+
+
+.main-button-out {
+    padding-right : 12px;
+    margin: 0 auto;
+}
+
+.main-button-in {
+    margin: 0 auto;
+    float: right;
 }
